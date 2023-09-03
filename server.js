@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors());
 
-app.use("/", async (req, res) => {
+app.use("/api", async (req, res) => {
     res.send("Hello from server")
 });
 
